@@ -21,6 +21,7 @@ export const offsets = {
     glowEnable: 0x3c0 + 0x8,          // [RecvTable.DT_HighlightSettings] -> m_highlightServerContextID + 0x8
     glowThroughWall: 0x3c0 + 0x10,    // [RecvTable.DT_HighlightSettings] -> m_highlightServerContextID + 0x10
     iTeamNum: 0x44c,                  // [RecvTable.DT_BaseEntity]        -> m_iTeamNum
+    duckState: 0x2A14,                // m_duckState;
     iName: 0x589,                     // [RecvTable.DT_BaseEntity]        -> m_iName
     lifeState: 0x798,                 // [RecvTable.DT_Player]            -> m_lifeState
     vecPunchWeaponAngle: 0x2488,      // [DataMap.C_Player]               -> m_currentFrameLocalPlayer.m_vecPunchWeapon_Angle

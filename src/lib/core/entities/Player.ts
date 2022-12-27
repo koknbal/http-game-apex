@@ -9,6 +9,7 @@ export class Player extends app.api.Adapter<app.api.Entity> {
     readonly teamNum = new app.UInt8(app.offsets.player.iTeamNum, 1000),
     readonly name = new app.UInt64(app.offsets.player.iName),
     readonly lifeState = new app.UInt8(app.offsets.player.lifeState),
+    readonly duckState = new app.UInt8(app.offsets.player.duckState),
     readonly lastVisibleTime = new app.Float32(app.offsets.entity.lastVisibleTime),
     readonly vecPunchWeaponAngle = new app.Vector(app.offsets.player.vecPunchWeaponAngle),
     readonly viewAngle = new app.Vector(app.offsets.player.viewAngle),
